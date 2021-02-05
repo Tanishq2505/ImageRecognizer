@@ -6,7 +6,7 @@ import time
 import numpy as np
 pytesseract.pytesseract.tesseract_cmd = r'D:\Programs\pytesseract\tesseract.exe'
 
-#test
+#test2
 # img = pyautogui.screenshot(region=(1277,1003,52,43))
 # img.save(r'D:\savedimg.png')
 while keyboard.is_pressed('q') == False:
