@@ -32,39 +32,30 @@ def start_clicking():
         if pyautogui.pixel(1010,642)[0] == 254:
             click(1010,642)
             time.sleep(0.1)
-            continue
-        if pyautogui.pixel(664,620)[0] == 1:
+        elif pyautogui.pixel(664,620)[0] == 1:
             click(664,650)
             time.sleep(0.1)
-            continue
-        if pyautogui.pixel(770,620)[0] == 1:
+        elif pyautogui.pixel(770,620)[0] == 1:
             click(770,650)
             time.sleep(0.1)
-            continue
-        if pyautogui.pixel(868,620)[0] == 1:
+        elif pyautogui.pixel(868,620)[0] == 1:
             click(868,650)
             time.sleep(0.1)
-            continue
-        if pyautogui.pixel(968,620)[0] == 1:
+        elif pyautogui.pixel(968,620)[0] == 1:
             click(968,650)
             time.sleep(0.1)
-            continue
-        if pyautogui.pixel(664,699)[0] == 0 or pyautogui.pixel(664,699)[0] == 5 or pyautogui.pixel(664,699)[0] == 6:
+        elif pyautogui.pixel(664,699)[0] == 0 or pyautogui.pixel(664,699)[0] == 5 or pyautogui.pixel(664,699)[0] == 6:
             hold(664,670)
             time.sleep(0.1)
-            continue
-        if pyautogui.pixel(770,688)[0] == 0 or pyautogui.pixel(770,688)[0] == 5 or pyautogui.pixel(770,688)[0] == 6:
+        elif pyautogui.pixel(770,688)[0] == 0 or pyautogui.pixel(770,688)[0] == 5 or pyautogui.pixel(770,688)[0] == 6:
             hold(770,670)
             time.sleep(0.1)
-            continue
-        if pyautogui.pixel(868,688)[0] == 0 or pyautogui.pixel(868,688)[0] == 5 or pyautogui.pixel(868,688)[0] == 6:
+        elif pyautogui.pixel(868,688)[0] == 0 or pyautogui.pixel(868,688)[0] == 5 or pyautogui.pixel(868,688)[0] == 6:
             hold(868,670)
             time.sleep(0.1)
-            continue
-        if pyautogui.pixel(968,688)[0] == 0 or pyautogui.pixel(968,688)[0] == 5 or pyautogui.pixel(968,688)[0] == 6:
+        elif pyautogui.pixel(968,688)[0] == 0 or pyautogui.pixel(968,688)[0] == 5 or pyautogui.pixel(968,688)[0] == 6:
             hold(968,670)
             time.sleep(0.1)
-            continue
 
 
 start_clicking()
